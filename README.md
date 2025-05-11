@@ -142,3 +142,18 @@ http://localhost:8080 | jq -r ".result"
 Then you'll get your `Apprentice` Role
 
 ![image](https://github.com/user-attachments/assets/2ae9ff7c-59ba-43ec-9a23-76ef8ccb997c)
+
+
+* If the proof is showing old then delete the previous data and re-run the node
+  * Delete old data:
+```bash
+rm -rf ~/.aztec/alpha-testnet/data/
+```
+* Stop node with Ctrl+C.
+
+* Re-run the node
+```bash
+rm -r /root/.aztec/alpha-testnet
+```
+* Re-run the node using run command.
+
