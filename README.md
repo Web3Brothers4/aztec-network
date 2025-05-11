@@ -84,9 +84,10 @@ sudo ufw status verbose
 ```bash
 screen -S aztec
 ```
-9. ```bash
-    aztec-up alpha-testnet
-   ```
+## 9. Run
+```bash
+aztec-up alpha-testnet
+```
 
    * Run Node
 ```
