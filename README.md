@@ -68,14 +68,11 @@ aztec-up alpha-testnet
 ```
 ## 6. Enable Firewall & Open Ports
 ```console
-# Firewall
-ufw allow 22
-ufw allow ssh
-ufw enable
-
-# Sequencer
-ufw allow 40400
-ufw allow 8080
+sudo ufw allow 22
+sudo ufw allow ssh
+sudo ufw allow 40400
+sudo ufw allow 8080
+sudo ufw enable
 ```
 ## 7. Check status
 ```bash
