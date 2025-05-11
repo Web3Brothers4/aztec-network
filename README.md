@@ -43,17 +43,20 @@ sudo docker run hello-world
 sudo systemctl enable docker
 sudo systemctl restart docker
 
+```
 if you using google cloud than use 4th command before 5th command if you using normal vps than 5th command directly 
 2. sudo usermod -aG docker $USER
+```
 
 NOW OPEN A NEW TERMINAL OR DUPLICATE
-
+```
 ## 3. Install Aztec Tools
 ```bash
 bash -i <(curl -s https://install.aztec.network)
-
+```
 4. sudo usermod -aG docker $USER
-
+```
 ## 5. Update Aztec
 ```bash
 aztec-up alpha-testnet
+```
