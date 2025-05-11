@@ -55,8 +55,9 @@ NOW OPEN A NEW TERMINAL OR DUPLICATE
 bash -i <(curl -s https://install.aztec.network)
 ```
 4. sudo usermod -aG docker $USER
-```
+
 ## 5. Update Aztec
 ```bash
+```
 aztec-up alpha-testnet
 ```
