@@ -149,6 +149,16 @@ Then you'll get your `Apprentice` Role
 
 
 * If the proof is showing old then delete the previous data and re-run the node
+## 🔃 Update Sequencer Node
+* 1- Stop Node:
+```console
+# Kill all Aztec docker containers
+docker stop $(docker ps -q --filter "ancestor=aztecprotocol/aztec") && docker rm $(docker ps -a -q --filter "ancestor=aztecprotocol/aztec")
+
+# Kill all Aztec screens
+screen -ls | grep -i aztec | awk '{print $1}' | xargs -I {} screen -X -S {} quit
+```
+  
   * Delete old data:
 ```bash
 rm -rf ~/.aztec/alpha-testnet/data/
