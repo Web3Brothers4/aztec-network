@@ -115,8 +115,6 @@ After entering the command, your node starts running, It takes a few minutes for
 ## 11. Get Role
 Go to the discord channel :[operators| start-here](https://discord.com/channels/1144692727120937080/1367196595866828982/1367323893324582954) and follow the prompts, You can continue the guide with my commands if you need help.
 
-![image](https://github.com/user-attachments/assets/90e9d34e-724b-481a-b41f-69b1eb4c9f65)
-
 **Step 1: Get the latest proven block number:**
 ```bash
 curl -s -X POST -H 'Content-Type: application/json' \
