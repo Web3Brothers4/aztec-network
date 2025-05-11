@@ -47,7 +47,7 @@ sudo systemctl restart docker
 if you using google cloud than use 4th command before 5th command if you using normal vps than 5th command directly 
 
 ```bash
- sudo usermod -aG docker $USER
+sudo usermod -aG docker $USER
 ```
 
 NOW OPEN A NEW TERMINAL OR DUPLICATE
