@@ -87,6 +87,9 @@ screen -S aztec
 ```bash
 aztec-up alpha-testnet
 ```
+* find IP
+curl ipv4.icanhazip.com
+```
 
    * Run Node
 ```
