@@ -87,8 +87,8 @@ screen -S aztec
 ```bash
 aztec-up alpha-testnet
 ```
-* find IP
-``bash
+* Find IP
+```bash
 curl ipv4.icanhazip.com
 ```
 
