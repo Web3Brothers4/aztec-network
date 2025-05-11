@@ -134,7 +134,7 @@ curl -s -X POST -H 'Content-Type: application/json' \
 -d '{"jsonrpc":"2.0","method":"node_getArchiveSiblingPath","params":["BLOCK_NUMBER","BLOCK_NUMBER"],"id":67}' \
 http://localhost:8080 | jq -r ".result"
 ```
-* Replace 2x `BLOCK_NUMBER` with your number
+* Replace Both the `BLOCK_NUMBER` with your number
 
 **Step 3: Register with Discord**
 * Type the following command in this Discord server: `/operator start`
