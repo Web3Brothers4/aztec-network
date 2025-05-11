@@ -75,9 +75,10 @@ ufw enable
 ufw allow 40400
 ufw allow 8080
 ```
-7. ```bash
-   sudo ufw status verbose
-   ```
+## 7. Check status
+```bash
+sudo ufw status verbose
+```
 ## 8. Run Sequencer Node
 * Open screen
 ```bash
