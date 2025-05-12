@@ -55,9 +55,10 @@ NOW OPEN A NEW TERMINAL OR DUPLICATE
 ## 3. Install Aztec Tools
 
 ```bash
-bash -i <(curl -s https://install.aztec.network)
+  bash -i <(curl -s https://install.aztec.network)
 ```
-4. ```bash 
+4.
+```bash
 sudo usermod -aG docker $USER
 ```
 
