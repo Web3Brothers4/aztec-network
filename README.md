@@ -57,7 +57,7 @@ NOW OPEN A NEW TERMINAL OR DUPLICATE
 ```bash
   bash -i <(curl -s https://install.aztec.network)
 ```
-4.
+## 4.
 ```bash
 sudo usermod -aG docker $USER
 ```
