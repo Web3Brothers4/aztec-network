@@ -67,24 +67,13 @@ sudo usermod -aG docker $USER
 ```bash
 aztec-up alpha-testnet
 ```
-## 6. Enable Firewall & Open Ports
-```console
-sudo ufw allow 22
-sudo ufw allow ssh
-sudo ufw allow 40400
-sudo ufw allow 8080
-sudo ufw enable
-```
-## 7. Check status
-```bash
-sudo ufw status verbose
-```
-## 8. Run Sequencer Node
+
+## 6. Run Sequencer Node
 * Open screen
 ```bash
 screen -S aztec
 ```
-## 9. Run
+## 7. Run
 ```bash
 aztec-up alpha-testnet
 ```
@@ -117,10 +106,10 @@ Replace the following variables before you Run Node:
 * Kill screen (when inside): `Ctrl`+`C+
 * Kill screen (when outside): `screen -XS aztec quit`
 
-## 10. Sync Node
+## 8. Sync Node
 After entering the command, your node starts running, It takes a few minutes for your node to get synced
 
-## 11. Get Role
+## 9. Get Role
 Go to the discord channel :[operators| start-here](https://discord.com/channels/1144692727120937080/1367196595866828982/1367323893324582954) and follow the prompts, You can continue the guide with my commands if you need help.
 
 **Step 1: Get the latest proven block number:**
@@ -165,4 +154,6 @@ rm -rf ~/.aztec/alpha-testnet/data/
 rm -r /root/.aztec/alpha-testnet
 ```
 * Re-run the node using run command.
+
+for more updates join our telegram channel https://t.me/Web3Brothers
 
