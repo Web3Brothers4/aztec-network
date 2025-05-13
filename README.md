@@ -69,7 +69,7 @@ aztec-up alpha-testnet
 ```
 
 ## 6. Run Sequencer Node
-* Open screen
+* Open new screen oor duplicate 
 ```bash
 screen -S aztec
 ```
