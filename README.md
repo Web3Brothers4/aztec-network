@@ -44,8 +44,9 @@ sudo systemctl enable docker
 sudo systemctl restart docker
 
 ```
-if you using google cloud than use 4th command before 5th command if you using normal vps than 5th command directly 
+if you using google cloud than use 2nd command before 3rd command if you using normal vps than 3rd command directly 
 
+2. usermod
 ```bash
 sudo usermod -aG docker $USER
 ```
